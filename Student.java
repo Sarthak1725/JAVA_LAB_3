@@ -14,6 +14,11 @@ class Student {
         this.marks = marks;
     }
 
+    // Setter and Getter for name
+    public void setName(String name) {
+        this.name = name;
+    }
+
     
 }
 
