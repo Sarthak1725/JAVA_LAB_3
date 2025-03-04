@@ -22,6 +22,11 @@ class Student {
     public String getName() {
         return name;
     }
+     // Setter and Getter for PRN
+     public void setPRN(long prn) {
+        this.prn = prn;
+    }
+
 
     
 }
