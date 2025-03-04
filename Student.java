@@ -31,6 +31,15 @@ class Student {
         return prn;
     }
 
+      // Setter and Getter for Marks
+      public void setMarks(double marks) {
+        this.marks = marks;
+    }
+
+    public double getMarks() {
+        return marks;
+    }
+
 
     
 }
