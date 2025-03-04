@@ -54,6 +54,18 @@ class StudentOperations {
         return null;
     }
 
+     // Method to update student details
+     public void updateStudent(long prn, String newName, double newMarks) {
+        Student student = searchByPRN(prn);
+        if (student != null) {
+            student.setName(newName);
+            student.setMarks(newMarks);
+            System.out.println("Student updated successfully.");
+        } else {
+            System.out.println("Student not found.");
+        }
+    }
+
     
    
 
