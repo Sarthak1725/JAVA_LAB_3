@@ -46,6 +46,14 @@ class StudentOperations {
         return null;
     }
 
+     // Method to search student by position
+     public Student searchByPosition(int position) {
+        if (position >= 0 && position < students.size()) {
+            return students.get(position);
+        }
+        return null;
+    }
+
     
    
 
