@@ -93,7 +93,7 @@ class Main {
                 }
                 
                 case 7 -> {
-                    
+                    //delete student
                     System.out.print("Enter PRN to delete: ");
                     long prn = scan.nextLong();
                     operations.deleteStudent(prn);
