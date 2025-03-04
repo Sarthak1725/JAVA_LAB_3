@@ -77,6 +77,31 @@ class Main {
                     Student student = operations.searchByPosition(position);
                     System.out.println(student != null ? "Student Found:\n" + student.display() : "Student not found.");
                 }
+                case 6 -> {
+                    // Updating student details
+                    System.out.print("Enter PRN to update: ");
+                    long prn = scan.nextLong();
+                    scan.nextLine(); // Consume newline
+                    
+                    System.out.print("Enter new name: ");
+                    String name = scan.nextLine();
+                    
+                    System.out.print("Enter new marks: ");
+                    double marks = scan.nextDouble();
+                    
+                    operations.updateStudent(prn, name, marks);
+                }
+                
+                case 7 -> {
+                    
+                    System.out.print("Enter PRN to delete: ");
+                    long prn = scan.nextLong();
+                    operations.deleteStudent(prn);
+                }
+                
+                case 8 -> System.out.println("Exiting program.");
+                
+                default -> System.out.println("Invalid choice! Please try again.");
                 
                 
             }
