@@ -27,6 +27,10 @@ class Student {
         this.prn = prn;
     }
 
+    public long getPRN() {
+        return prn;
+    }
+
 
     
 }
