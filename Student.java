@@ -40,6 +40,11 @@ class Student {
         return marks;
     }
 
+    
+    public String display() {
+        return "Name: " + name + ", PRN: " + prn + ", DOB: " + dob + ", Marks: " + marks;
+    }
+
 
     
 }
