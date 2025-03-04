@@ -6,6 +6,13 @@ class Student {
     private long prn;
     private Date dob;
     private double marks;
+    // Constructor to initialize Student attributes
+    public Student(String name, long prn, Date dob, double marks) {
+        this.name = name;
+        this.prn = prn;
+        this.dob = dob;
+        this.marks = marks;
+    }
 
     
 }
