@@ -65,7 +65,7 @@ class StudentOperations {
             System.out.println("Student not found.");
         }
     }
-     // Method to delete a student
+     // Method to delete a stude
      public void deleteStudent(long prn) {
         Student student = searchByPRN(prn);
         if (student != null) {
