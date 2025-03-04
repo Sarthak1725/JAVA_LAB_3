@@ -8,7 +8,7 @@ import java.util.*;
 
 class Main {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         StudentOperations operations = new StudentOperations();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         int choice;
